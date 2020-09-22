@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>IMSS!</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>EVALUACIÓN DEL ARTÍCULO 17 LSS!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">La facultad del Artículo 17 Verifica el Supuesto de:</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">En que párrafo del Artículo 17 esta la facultad de Verificación?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Segundo"> Segundo<br>
+<input type = "radio" id = "mc" name = "question2" value = "Tercero"> Tercero<br>
+
+<p class = "questions">En la resolución de la verificación puedes determinar Créditos Fiscales?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Si"> Si<br>
+<input type = "radio" id = "mc" name = "question3" value = "No"> No<br>
+
+
+<input id = "button" type = "button" value = "Termine!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
